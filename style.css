@@ -44,3 +44,32 @@ nav ul li a {
     text-decoration: none;
     color: white;
 }
+
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form label {
+    font-size: 18px;
+
+}
+
+.container form input[type='number'], select, label {
+    width: 23vw;
+    font-size: 18px;
+    margin-bottom: 23px;
+
+}
+
+.btn {
+    width: 144px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 13px;
+    padding: 8px 20px;
+    cursor: pointer;
+
+}
