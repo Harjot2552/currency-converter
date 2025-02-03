@@ -73,3 +73,35 @@ nav ul li a {
     cursor: pointer;
 
 }
+
+
+
+
+
+.output {
+    margin-top: 23px;
+    display: none;
+}
+
+.output table {
+    margin-top: 23px;
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.output table thead tr th{
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 17px 17px;
+}
+.output table tr{
+    padding: 17px;
+    border: 2px solid black;
+}
+.output table td{
+    padding: 17px;
+    border: 2px solid black;
+}
