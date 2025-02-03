@@ -23,3 +23,16 @@ const populate = async (value, currency) => {
 
 
 }
+
+const btn = document.getElementById('btn')
+btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    console.log("k")
+    const value = parseInt(document.querySelector("input[name='quantity']").value)
+    const currency = document.querySelector("select[name='currency']").value
+    populate(value, currency);
+})
+
+
+
+
